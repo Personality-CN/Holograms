@@ -20,8 +20,8 @@
 
     <repositories>
         <repository>
-            <id>spigot-repo</id>
-            <url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
+            <id>tiger-repo</id>
+            <url>http://repo.tigerhix.me/content/groups/public/</url>
         </repository>
     </repositories>
 
@@ -41,5 +41,5 @@
         </dependency>
 
     </dependencies>
-    
+
 </project>

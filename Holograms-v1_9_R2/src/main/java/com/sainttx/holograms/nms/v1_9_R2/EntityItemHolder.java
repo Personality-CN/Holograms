@@ -176,4 +176,5 @@ public class EntityItemHolder extends EntityItem implements ItemHolder {
             vehicle = null;
         }
     }
+
 }

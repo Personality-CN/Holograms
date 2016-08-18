@@ -26,14 +26,12 @@
     </repositories>
 
     <dependencies>
-        <!-- Local .m2 -->
+
         <dependency>
-            <groupId>org.bukkit</groupId>
-            <artifactId>craftbukkit</artifactId>
-            <version>1.9.4-R0.1-SNAPSHOT</version>
-            <scope>provided</scope>
+            <groupId>com.destroytokyo.paper</groupId>
+            <artifactId>Paper</artifactId>
+            <version>1.9.4</version>
         </dependency>
-        <!-- End local .m2 -->
 
         <dependency>
             <groupId>com.sainttx.holograms</groupId>
@@ -41,5 +39,7 @@
             <version>${project.version}</version>
             <scope>provided</scope>
         </dependency>
+
     </dependencies>
+    
 </project>

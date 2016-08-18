@@ -138,4 +138,5 @@ public class CraftNameable extends CraftArmorStand {
     @Override
     public void setCustomNameVisible(boolean flag) {
     }
+
 }

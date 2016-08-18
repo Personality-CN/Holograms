@@ -168,4 +168,5 @@ public class EntityNameable extends EntityArmorStand implements Nameable {
     public HologramLine getHologramLine() {
         return parentPiece;
     }
+
 }

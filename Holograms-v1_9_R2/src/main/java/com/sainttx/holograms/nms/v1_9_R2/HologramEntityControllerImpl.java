@@ -79,4 +79,5 @@ public class HologramEntityControllerImpl implements HologramEntityController {
         Entity nmsEntity = ((CraftEntity) bukkitEntity).getHandle();
         return nmsEntity instanceof HologramEntity ? (HologramEntity) nmsEntity : null;
     }
+
 }

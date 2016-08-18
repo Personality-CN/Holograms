@@ -58,29 +58,25 @@
     </build>
 
     <repositories>
+
+        <repository>
+            <id>tiger-repo</id>
+            <url>http://repo.tigerhix.me/content/groups/public/</url>
+        </repository>
+
         <repository>
             <id>spigot-repo</id>
             <url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
         </repository>
-        <repository>
-            <id>Plugin Metrics</id>
-            <url>http://repo.mcstats.org/content/repositories/public</url>
-        </repository>
+
     </repositories>
 
     <dependencies>
-        <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-api</artifactId>
-            <version>1.8-R0.1-SNAPSHOT</version>
-            <scope>provided</scope>
-        </dependency>
 
         <dependency>
-            <groupId>org.mcstats.bukkit</groupId>
-            <artifactId>metrics-lite</artifactId>
-            <version>R8-SNAPSHOT</version>
-            <scope>compile</scope>
+            <groupId>com.destroytokyo.paper</groupId>
+            <artifactId>Paper-API</artifactId>
+            <version>1.9.4</version>
         </dependency>
 
         <dependency>
@@ -92,44 +88,11 @@
 
         <dependency>
             <groupId>com.sainttx.holograms</groupId>
-            <artifactId>holograms-v1_8_R1</artifactId>
-            <version>${project.version}</version>
-            <scope>compile</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>com.sainttx.holograms</groupId>
-            <artifactId>holograms-v1_8_R2</artifactId>
-            <version>${project.version}</version>
-            <scope>compile</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>com.sainttx.holograms</groupId>
-            <artifactId>holograms-v1_8_R3</artifactId>
-            <version>${project.version}</version>
-            <scope>compile</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>com.sainttx.holograms</groupId>
-            <artifactId>holograms-v1_9_R1</artifactId>
-            <version>${project.version}</version>
-            <scope>compile</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>com.sainttx.holograms</groupId>
             <artifactId>holograms-v1_9_R2</artifactId>
             <version>${project.version}</version>
             <scope>compile</scope>
         </dependency>
 
-        <dependency>
-            <groupId>com.sainttx.holograms</groupId>
-            <artifactId>holograms-v1_10_R1</artifactId>
-            <version>${project.version}</version>
-            <scope>compile</scope>
-        </dependency>
     </dependencies>
+
 </project>

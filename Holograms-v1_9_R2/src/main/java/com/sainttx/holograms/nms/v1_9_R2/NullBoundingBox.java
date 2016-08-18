@@ -74,4 +74,5 @@ public class NullBoundingBox extends AxisAlignedBB {
     public AxisAlignedBB g(double var1) {
         return this;
     }
+
 }
